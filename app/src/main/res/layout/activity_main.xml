@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ToggleButton
+        android:id="@+id/onetimeAlarmToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="onetime alarm off"
+        android:textOn="onetime alarm on" />
+
+    <ToggleButton
+        android:id="@+id/periodicAlarmToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="periodic alarm off"
+        android:textOn="periodic alarm on" />
+
+    <ToggleButton
+        android:id="@+id/exactPeriodicAlarmToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="exact periodic alarm off"
+        android:textOn="exact periodic alarm on" />
+
+    <ToggleButton
+        android:id="@+id/realtimePeriodicAlarmToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="realtime periodic alarm off"
+        android:textOn="realtime periodic alarm on" />
+
+</LinearLayout>
